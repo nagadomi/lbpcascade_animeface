@@ -2,6 +2,8 @@
 
 The face detector for anime/manga using OpenCV.
 
+Original release since 2011 at [OpenCVによるアニメ顔検出ならlbpcascade_animeface.xml](http://ultraist.hatenablog.com/entry/20110718/1310965532) (in Japanese)
+
 ## Usage
 
 Download and place the cascade file to your project directory.
