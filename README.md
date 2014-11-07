@@ -30,7 +30,7 @@ def detect(filename):
     for (x, y, w, h) in faces:
         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 2)
 
-    cv2.imshow("AnimeFaceDtect", image)
+    cv2.imshow("AnimeFaceDetect", image)
     cv2.waitKey(0)
     cv2.imwrite("out.png", image)
     
