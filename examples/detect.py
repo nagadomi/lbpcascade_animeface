@@ -7,7 +7,7 @@ def detect(filename, cascade_file = "../lbpcascade_animeface.xml"):
         raise RuntimeError("%s: not found" % cascade_file)
 
     cascade = cv2.CascadeClassifier(cascade_file)
-    image = cv2.imread(filename)
+    image = cv2.imread(filename, cv2.IMREAD_COLOR)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     gray = cv2.equalizeHist(gray)
     
